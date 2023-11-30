@@ -35,11 +35,11 @@
   <ItemGroup>
     <Reference Include="BankAccountsLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\BankAccountsLibrary.dll</HintPath>
+      <HintPath>.\BankAccountsLibrary.dll</HintPath>
     </Reference>
     <Reference Include="BuildLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\BuildLibrary.dll</HintPath>
+      <HintPath>.\BuildLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,6 +60,9 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="BankAccountsLibrary.dll" />
+    <Content Include="BuildLibrary.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
